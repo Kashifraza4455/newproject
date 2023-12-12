@@ -48,124 +48,6 @@ body{
     text-align: right;
     padding: 0 23px;
 }
-#search{
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid rgb(236, 134, 134);
-    border-radius: 9px;
-}
-.background{
-    background-size: cover;
-    background-blend-mode: darken;
-}
-.firstsection{
-    height: 100vh;
-}
-
-.box-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 50%;
-    margin: auto;
-    height: 400px;
-}
-.firsthalf{
-    width: 75%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.secondhalf{
-    width: 20%;
-}
-.secondhalf img{
-    width: 70%;
-    border: 4px solid white;
-    border-radius: 150px;
-    display: block;
-    margin: auto;
-}
-
-.text-big{
-    font-size: 42px;
-}
-
-.text-small{
-    font-size: 18px;
-}
-.btn{
-    padding: 8px 20px;
-    margin: 7px 3px;
-    border: 2px solid white;
-    border-radius: 8px;
-    background: none;
-    color: white;
-    cursor: pointer;
-}
-
-.btn-sm{
-    padding: 6px 10px;
-    vertical-align: middle;
-}
-.button{
-    color: black;
-    border: 2px solid gray;
-}
-.section{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    max-width: 80%;
-    margin: auto;
-    padding: 15px;
-
-}
-
-.section-left{
-    flex-direction: row-reverse;
-}
-.paragrah{
-    padding: 0px 35px;
-}
-.sectionsubtag{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.contact{
-    background-color: rgba(245, 222, 179, 0.418);
-    height: 100vh;
-}
-.text-advance{
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-}
-.form{
-    max-width: 62%;
-    margin: 25px auto;
-}
-
-.form-input{
-    margin: 14px 0;
-    padding: 5px 13px;
-    width: 100%;
-    font-size: 19px;
-    border: 2px solid gray;
-    border-radius: 6px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.text-footer{
-    text-align: center;
-    padding: 30px 0;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    background-color: gray;
-    color: white;
-}
 .burger{
     display: none;
     position: absolute;
@@ -210,7 +92,7 @@ position: relative;
      background-color: greenyellow;
 }    
 
-.main .my h1{
+.main2 .my h1{
     position:relative;
     display: flex;
     justify-content:center ;
@@ -221,11 +103,11 @@ position: relative;
     font-size: 35px;
     color: green;
 }
-.main .my img{
+.main2 .my img{
     position: absolute;
     padding-left: 800px;
 }
-.main .my p{
+.main2 .my p{
     position:relative;
     display: flex;
     justify-content:center ;
@@ -250,16 +132,8 @@ position: relative;
    padding-left: 350px;
 }
 
-.box{
-    width: 1580px;
-    height: 400px;
-    background-color: aqua;
-}
 
 .box h2{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     top: 50px;
     position: relative;
     height: 20px;
@@ -294,6 +168,8 @@ position: relative;
 }
 .don{
     position: relative;
+    height: 700px;
+    width: 900px;
     left: 670px;
     bottom: 90px;
 }
@@ -310,7 +186,7 @@ position: relative;
      background-color: greenyellow;
     }
 
-    .fot{
+    .fot p{
         position: relative;
         margin-left: 850px;
         bottom: 90px;
@@ -354,6 +230,8 @@ position: relative;
         font-size: 20px;
     }
     .ty img{
+        height: 250px;
+        width: 600px;
         position: relative;
         left: 100px;
     }
@@ -371,23 +249,58 @@ position: relative;
          top: 60px;
         }
 
-        .img2{
+
+        .img1{
             position: relative;
-            bottom: 350px;
-            color: white;
-            left: 15px;
+           bottom: 400px;
+           left: 30px;
+            
+
+       
         }
         .fot2 p{
             position: relative;
-            bottom: 370px;
+            bottom: 200px;
             color: white;
-            left: 26px;
+            left: 60px;
+        }
+        .fot2 img{
+            width: 1590px;
+            height: 1500px;
+        }
+
+        
+        .main h2{
+            position: relative;
+            bottom: 500px;
+            left: 380px;
+            color: white;
+        }
+
+        .main p{
+            position: relative;
+            left: 380px;
+            bottom: 500px;
+            color: white;
+        }
+        .main h3{
+            position: relative;
+            left: 600px;
+            bottom: 690px;
+            color: white;
+        }
+        .para2{
+            position: relative;
+            left: 600px;
+            bottom: 690px;
+            color: white;
         }
     
     
+    
 
 
-@media only screen and (max-width:1140px){
+@media only screen and (max-width:1000px){
     .nav-list{
         flex-direction: column;
     }
@@ -399,13 +312,6 @@ position: relative;
     .rightnav{
         text-align: center;
     }
-    #btn{
-        width: 100%;
-    }
-    .main{
-        flex-direction: column-reverse;
-        max-width: 100%;
-    }
     .burger{
         display: block;
     }
@@ -415,24 +321,156 @@ position: relative;
     .v-class-resp{
         opacity: 0;
     }
-    .section{
+    .main2 .my h1{
+        left: 320px;
+        color: green;
+    }
+    .main2 .my p{
+       left: 270px;
+        color: green;
+    }
+    .main2 .my img{
         flex-direction: column-reverse;
+        right: -280px;
+        bottom: -450px;
+               
     }
-    .text-small{
-        text-align: center;
-    }
-    .text-big{
-        margin-top: 50px;
-        text-align: center;
-    }
-    .button{
-        text-align: center;
-    }
-    .paragrah{
-        padding: 0px;
 
+    .btn2{
+        position: relative;
+         left: 130px;
+         top: 600px;
+         color: black;
+         border: 4px solid greenyellow;
+         border-radius: 70px;
+         font-size: 15px;
+         font-weight: bold;
+         background-color: greenyellow;
+    }  
+    .ds{
+        position: relative;
+        height: 20px;
+        width: 500px;
+        top: 350px;
+        background-color: yellow;
     }
-    .secondhalf{
-        margin-top: 50px;
+    .vid{
+        position: relative;
+        right: 250px;
+        top: 350px;
+     }
+
+     .box h2{
+        top: 200px;
+        right: 960px;
+        position: relative;
+        height: 20px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: yellow;
+    } 
+    .vid2{
+        position: relative;
+       right: 550px;
+       top: 130px;
     }
+
+     .gh{
+        position: relative;
+        top: 100px;
+        height: 20px;
+        width: 520px;
+        border-radius: 20px;
+        background-color: yellow;
+    }
+    .ak{
+        position: relative;
+        top: 80px;
+        font-size: 40px;
+        color: rgb(119, 235, 243);
+    }
+    .don{
+        height: 400px;
+        width: 700px;
+       top: 30px;
+        left:-10px ;
+    }
+    .fot p{
+        position: relative;
+        right: 450px;
+        top: 40px;
+        font-size: 20px;
+    }
+    .tr{
+        position: relative;
+        background-color: aquamarine;
+        height: 900px;
+        width: 1000px;
+        
+    }
+
+    .tr h4{
+        position: relative;
+        height: 20px;
+        width: 500px;
+        left: 10px;
+        border-radius: 20px;
+        background-color: yellow;
+    }
+
+    .tr img{
+        position: relative;
+       left: -120px;
+       top: -200px;
+    }
+    .btn3{
+        position: relative;
+         color: black;
+         left: 100px;
+         top: 200px;
+         border: 4px solid greenyellow;
+         border-radius: 70px;
+         font-weight: bold;
+         background-color: greenyellow;
+        }
+
+        .ty h5{
+            height: 20px;
+            width: 500px;
+            border-radius: 20px;
+            background-color: yellow;
+            font-size: 20px;
+        }
+
+        .ty img{
+            height: 250px;
+            width: 500px;
+            position: relative;
+            left: 70px;
+        }
+
+        .btn4{
+            position: relative;
+             color: black;
+             left: 150px;
+             border: 4px solid greenyellow;
+             border-radius: 70px;
+             font-size: 15px;
+             font-weight: bold;
+             background-color: greenyellow;
+             
+            }
+
+            .fot2 img{
+                width: 920px;
+                height: 1500px;
+            }
+
+         
+           
+
+
+    
+    
+    
 }
